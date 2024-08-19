@@ -5,8 +5,10 @@
 # - ate 20 sênior
 # - acima master
 
-ano = int(input('Qual ano voce nasceu? '))
-idade = 2024 - ano
+import datetime
+atual = datetime.date.today().year
+nasc = int(input('Qual ano voce nasceu? '))
+idade = atual - nasc
 
 if idade <= 9:
     print('Voce esta na categoria mirim!')

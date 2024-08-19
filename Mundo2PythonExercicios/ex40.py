@@ -16,4 +16,4 @@ elif media > 5 and media <= 6.9:
 elif media >= 7.0 :
     print('Aprovado!')
 
-print(media)
+print('Sua media final foi: {:.1f} '.format(media))
